@@ -1,0 +1,11 @@
+console.log(`help is ${4+true} kms away.`);
+console.log(`help is ${"many"} kms \taway.`);
+p=`strong\t      people     .`;
+p1=`strong\npeople`;
+console.log(p.length);
+console.log(p1.length);
+console.log(p);
+s=p.toUpperCase();
+console.log(s);
+console.log(s.trim());
+console.log(p);

@@ -1,0 +1,10 @@
+s=`pokemon`;
+t=`charizard`;
+console.log(s.slice(1,3));
+console.log(s.concat(t));
+console.log(s.replace(`ok`,`pok`));
+console.log(t.charAt(3));
+console.log(t.charAt(1));
+console.log(t.charAt(8));
+p=t+s+t+6;
+console.log(p);
