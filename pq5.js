@@ -1,0 +1,10 @@
+c=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+console.log(c.unshift());
+c[2]="Ola";
+for(i=0;i<6;i=i+1){
+    console.log(c[i]);
+}
+console.log(c.push("Amazon"));
+for(i=0;i<7;i=i+1){
+    console.log(c[i]);
+}

@@ -1,0 +1,10 @@
+a=[1,23,465,23,22];
+a.push(99);
+console.log(a[5]);
+console.log(a.pop(a[5]));
+console.log(a[5]);
+console.log(a.slice(1,4));
+console.log(a.splice(1,3,44,45,46));
+for(i=0;i<5;i=i+1){
+    console.log(a[i]);
+}
